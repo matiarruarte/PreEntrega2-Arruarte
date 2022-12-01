@@ -1,11 +1,11 @@
 alert("Bienvenido al sistema informático de la clínica MA");
 
 let elegirOperacion = Number(prompt(`                   
-1-Registrar nuevo paciente.    
-2-Eliminar paciente.      
-3-Actualizar información del paciente.
-4-Consultar información del paciente.
-0-Para salir.`));
+1- Registrar nuevo paciente.    
+2- Eliminar paciente.      
+3- Actualizar información del paciente.
+4- Consultar información del paciente.
+0- Para salir.`));
 
 class Persona {
     constructor(nombre, apellido, dni, rol) {
@@ -84,12 +84,11 @@ while (elegirOperacion != "0") {
     }
 
     elegirOperacion = Number(prompt(`
-    OPERACIÓN:
-    1 - Registrar nuevo paciente.    
-    2 - Eliminar paciente.      
-    3 - Actualizar información de paciente.
-    4 - Consultar información de paciente.
-    0 - Para salir.`));
+    1- Registrar nuevo paciente.    
+    2- Eliminar paciente.      
+    3- Actualizar información de paciente.
+    4- Consultar información de paciente.
+    0- Para salir.`));
 
 };
 
